@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+/* ********HEADER SECTION: SCORES AND TIMER********** */
+.header {
+  display: flex;
+  padding-bottom: 20px;
+}
+
+.hscores {
+  width: 50%;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+.h3clock {
+  width: 50%;
+  padding-top: 20px;
+  padding-right: 30px;
+  text-align: end;
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+a:active {
+  color: rgb(241, 79, 252);
+}
+a:visited {
+  color: rgb(226, 43, 223);
+}
+
+/*  *************START BUTTON************* */
