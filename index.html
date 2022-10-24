@@ -15,17 +15,101 @@
     </header>
 
     <!-- START BUTTON  -->
+    <main>
+      <div class="startdiv">
+        <h2>Coding Quiz Challenge</h2>
+        <p>
+          Try to answer the following code-related questions within the limit.
+          Keep in mind that the incorrect answers will penalize your score/time
+          by ten seconds!
+        </p>
+        <button class="start">START QUIZ</button>
+      </div>
+      <!-- QUESTION 1 -->
+      <div class="question1">
+        <h3>Commonly used data types DO Not Include:</h3>
+        <ul class="ulq1">
+          <li id="q1a1">1. Strings</li>
+          <li id="q1a1">2. Booleans</li>
+          <li id="q1a1">3. Alerts</li>
+          <li id="q1a1">4. Numbers</li>
+        </ul>
+      </div>
 
-    <div class="startdiv">
-      <h2>Coding Quiz Challenge</h2>
-      <p>
-        Try to answer the following code-related questions within the limit. Kee
-        in mind that the incorrect answers will penalize your score/time by ten
-        seconds!
-      </p>
-      <button class="start">START QUIZ</button>
-    </div>
+      <!-- QUESTION 2 -->
+      <div class="question2">
+        <h3>The condition in an if/else stament is enclosed with _________:</h3>
+        <ul class="ulq2">
+          <li id="q2a1">1. Quotes</li>
+          <li id="q2a1">2. Curly brackets</li>
+          <li id="q2a1">3. Parenthesis</li>
+          <li id="q2a1">4. Square brackets</li>
+        </ul>
+      </div>
 
+      <!-- QUESTION 3 -->
+      <div class="question3">
+        <h3>Array in JavaScript can be used to store:</h3>
+        <ul class="ulq3">
+          <li id="q3a1">1. Numbers and strings</li>
+          <li id="q3a1">2. Other arrays</li>
+          <li id="q3a1">3. Booleans</li>
+          <li id="q3a1">4. All of the above</li>
+        </ul>
+      </div>
+
+      <!-- QUESTION 4 -->
+      <div class="question4">
+        <h3>
+          String values must be enclosed within ________ when being assigned to
+          variables.
+        </h3>
+        <ul class="ulq4">
+          <li id="q4a1">1. Comas</li>
+          <li id="q4a1">2. Curly brackets</li>
+          <li id="q4a1">3. Quoes</li>
+          <li id="q4a1">4. Paranthesis</li>
+        </ul>
+      </div>
+
+      <!-- QUESTION 5 -->
+      <div class="question5">
+        <h3>
+          A very usefull tool used during developmnet and debugging for print
+          content to the debugger is:
+        </h3>
+        <ul class="ulq5">
+          <li id="q5a1">1. Java Script</li>
+          <li id="q5a1">2. Terminal / Bash</li>
+          <li id="q5a1">3. For loops</li>
+          <li id="q5a1">4. Console.log</li>
+        </ul>
+      </div>
+
+      <!-- **** TIME IS OVER ******** -->
+      <div class="timeover">
+        <h3>All done!</h3>
+        <p>Your final score is <span class="finalscore">0</span>.</p>
+        <form>
+          <label for="initials">Enter Initials:</label>
+          <input type="text" id="initials" name="initials" />
+          <button class="submit">Submit</button>
+        </form>
+      </div>
+
+      <!-- ***** HIGH SCORES ******** -->
+
+      <div class="highscores">
+        <h3>High Scores</h3>
+        <ol class="olhs">
+          <li>AB - 22</li>
+        </ol>
+        <div class="endbuttons">
+          <button class="goback">Go Back</button>
+          <button class="clear">Clear High scores</button>
+        </div>
+      </div>
+    </main>
     <script src="./assets/script/main.js"></script>
   </body>
 </html>
