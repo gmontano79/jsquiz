@@ -38,3 +38,39 @@ a:visited {
 }
 
 /*  *************START BUTTON************* */
+
+.startdiv {
+  /* border: 3px solid yellow; */
+  width: 70%;
+  height: 400px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+h2 {
+  text-align: center;
+  padding-top: 50px;
+  font-weight: bold;
+  font-size: 2em;
+}
+p {
+  padding: 30px 20px;
+  text-align: justify;
+}
+.start {
+  width: auto;
+  height: auto;
+  align-self: center;
+  padding: 10px 15px;
+  background-color: rgb(80, 9, 146);
+  color: white;
+  font-weight: bold;
+  border-radius: 8px;
+  border: none;
+}
+.start:hover {
+  box-shadow: 3px 3px 5px grey;
+}
+.start:active {
+  background-color: fuchsia;
+}
