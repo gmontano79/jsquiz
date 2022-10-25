@@ -57,7 +57,7 @@ a:visited {
   padding: 30px 20px;
   text-align: justify;
 }
-.start {
+#start {
   width: auto;
   height: auto;
   align-self: center;
@@ -68,20 +68,20 @@ a:visited {
   border-radius: 8px;
   border: none;
 }
-.start:hover {
+#start:hover {
   box-shadow: 3px 3px 5px grey;
   text-shadow: 2px 2px 3px rgb(9, 9, 9);
   transition: 300ms;
 }
-.start:active {
+#start:active {
   background-color: fuchsia;
   transition: 300ms;
 }
 
 /*   ********* QUESTION 1  ********** */
 
-.question1 {
-  border: 3px solid greenyellow;
+#question1 {
+  /* border: 3px solid greenyellow; */
   width: 60%;
   height: 300px;
   margin: auto;
@@ -89,10 +89,10 @@ a:visited {
   flex-direction: column;
   display: none;
 }
-.question1 h3 {
+#question1 h3 {
   padding-bottom: 40px;
 }
-.question1 li {
+#question1 li {
   background-color: blueviolet;
   color: white;
   width: 200px;
@@ -102,14 +102,15 @@ a:visited {
   user-select: none;
   cursor: pointer;
   font-weight: 500;
+  list-style: none;
 }
-.question1 li:hover {
+#question1 li:hover {
   box-shadow: 2px 2px 5px grey;
   font-weight: bold;
   text-shadow: 2px 2px 3px black;
   transition: 300ms;
 }
-.question1 li:active {
+#question1 li:active {
   background-color: fuchsia;
   box-shadow: 2px 2px 5px grey;
   color: black;
@@ -273,7 +274,7 @@ a:visited {
 }
 
 /*  **************** TIME OVER ***** */
-.timeover {
+#timeover {
   /* border: 3px solid greenyellow; */
   width: 60%;
   height: 300px;
@@ -282,16 +283,16 @@ a:visited {
   flex-direction: column;
   display: none;
 }
-.timeover h3 {
+#timeover h3 {
   font-size: 2em;
   margin-bottom: 15px;
 }
-.timeover p {
+#timeover p {
   font-size: 1.5em;
   margin-bottom: 10px;
 }
 
-.timeover form {
+#timeover form {
   font-size: 1.3em;
 }
 

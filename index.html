@@ -11,7 +11,7 @@
     <!-- HEADER : HIGHT SCORES AND  TIMER BAR -->
     <header class="header">
       <h3 class="hscores"><a href="#">View high scores</a></h3>
-      <h3 class="h3clock">Time: <span class="clock">60</span></h3>
+      <h3 class="h3clock">Time: <span id="clock"></span></h3>
     </header>
 
     <!-- START BUTTON  -->
@@ -23,16 +23,16 @@
           Keep in mind that the incorrect answers will penalize your score/time
           by ten seconds!
         </p>
-        <button class="start">START QUIZ</button>
+        <button id="start">START QUIZ</button>
       </div>
       <!-- QUESTION 1 -->
-      <div class="question1">
+      <div id="question1">
         <h3>Commonly used data types DO Not Include:</h3>
         <ul class="ulq1">
           <li id="q1a1">1. Strings</li>
-          <li id="q1a1">2. Booleans</li>
-          <li id="q1a1">3. Alerts</li>
-          <li id="q1a1">4. Numbers</li>
+          <li id="q1a2">2. Booleans</li>
+          <li id="q1a3">3. Alerts</li>
+          <li id="q1a4">4. Numbers</li>
         </ul>
       </div>
 
@@ -87,7 +87,7 @@
       </div>
 
       <!-- **** TIME IS OVER ******** -->
-      <div class="timeover">
+      <div id="timeover">
         <h3>All done!</h3>
         <p>Your final score is <span class="finalscore">0</span>.</p>
         <form>
