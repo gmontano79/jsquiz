@@ -44,9 +44,7 @@
         </div>
         <span id="answer"></span>
       </div>
-      <!--  ********* SCRIPTS ******** -->
-      <script src="./assets/script/questions.js"></script>
-      <!-- <script src="./assets/script/newindex.js"></script> -->
+
       <!-- RESULTS -->
 
       <div class="results">
@@ -57,11 +55,13 @@
       <!-- **** TIME IS OVER ******** -->
       <div id="timeOver">
         <h3>All done!</h3>
-        <p>Your final score is <span id="finalscore">0</span>.</p>
+        <p id="yourscore">
+          Your final score is <span id="finalscore">0</span>.
+        </p>
         <form>
           <label for="initials">Enter Initials:</label>
           <input type="text" id="initials" name="initials" />
-          <button class="submit">Submit</button>
+          <button id="submit">Submit</button>
         </form>
       </div>
 
@@ -69,7 +69,7 @@
 
       <div class="highscores">
         <h3>High Scores</h3>
-        <ol class="olhs">
+        <ol id="olhs">
           <li>AB - 22</li>
         </ol>
         <div class="endbuttons">
@@ -78,6 +78,7 @@
         </div>
       </div>
     </main>
+    <script src="./assets/script/questions.js"></script>
     <script src="./assets/script/main.js"></script>
   </body>
 </html>
