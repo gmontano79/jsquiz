@@ -10,7 +10,7 @@
   <body>
     <!-- HEADER : HIGHT SCORES AND  TIMER BAR -->
     <header class="header">
-      <h3 class="hscores"><a href="#">View high scores</a></h3>
+      <h3 id="hscores"><a href="#">View high scores</a></h3>
       <h3 class="h3clock">Time: <span id="clock"></span></h3>
     </header>
 
@@ -67,14 +67,12 @@
 
       <!-- ***** HIGH SCORES ******** -->
 
-      <div class="highscores">
+      <div id="highscores">
         <h3>High Scores</h3>
-        <ol id="olhs">
-          <li>AB - 22</li>
-        </ol>
+        <ol id="olhs"></ol>
         <div class="endbuttons">
-          <button class="goback">Go Back</button>
-          <button class="clear">Clear High scores</button>
+          <button id="goback">Go Back</button>
+          <button id="clear">Clear High scores</button>
         </div>
       </div>
     </main>

@@ -98,12 +98,9 @@ async function selectOption(index) {
 
 var submitbtn = document.getElementById("submit");
 
-function saveToLocalStorage(event) {
-  event.preventDefault();
-  var userInput = document.getElementById("initials").value + " - " + score;
-  console.log(userInput);
-  console.log(event);
+function saveToLocalStorage() {
 
+  var userInput = document.getElementById("initials").value + ": " + score;
   var highScore = []
   if (localStorage.getItem("highScore")) {
     highScore = JSON.parse(localStorage.getItem("highScore"))
@@ -123,7 +120,44 @@ function addScores() {
     var newLi = document.createElement("li");
     newLi.textContent = highScore[i];
     newScore.append(newLi);
+    newLi.style.backgroundColor = "grey";
+    newLi.style.color = "white";
+    newLi.style.marginBottom = "5px";
+    newLi.style.width = "200px";
+
+
+    var clearBtn = document.getElementById("clear");
+    clearBtn.addEventListener("click", function () {
+      newScore.remove(newLi[0])
+    })
   }
 }
-
 addScores()
+
+//  ************* END BUTTONS **********
+
+var goBackBtn = document.getElementById("goback");
+var hScore = document.getElementById("highscores")
+var clearBtn = document.getElementById("clear");
+
+goBackBtn.addEventListener("click", function () {
+  hScore.style.display = "none";
+  startCard.style.display = "block";
+
+})
+
+// *********** VIEW HIGH SCORE   ********
+
+var viewHSbtn = document.getElementById("hscores");
+
+
+viewHSbtn.addEventListener("click", function () {
+  startCard.style.display = "none";
+  timeOver.style.display = "none";
+  hScore.style.display = "block";
+})
+
+//  ************ CLEAR BUTTON  *****
+
+
+
