@@ -14,7 +14,25 @@ To use this page simply click on the start button, the timer will initiate and t
 
 The deployment application link is https://gmontano79.github.io/jsquiz/
 
-![alt Page Screenshoot]()
+## Welcome page
+
+![alt Page Screenshoot](./assets/img/start%20page.JPG)
+
+## Questions pages
+
+![alt Page Screenshoot](./assets/img/quesions.JPG)
+
+## When quizz is over
+
+![alt Page Screenshoot](./assets/img/time%20over.JPG)
+
+## High Scores Table
+
+![alt Page Screenshoot](./assets/img/high%20scores.JPG)
+
+## Clean High scores table
+
+![alt Page Screenshoot](./assets/img/clear%20high%20score.JPG)
 
 ## Credits
 
