@@ -16,8 +16,6 @@ startBtn.addEventListener("click", function () {
   container.style.display = "block";
 
 })
-
-
 function endGame() {
   if (timeLeft === 0) {
     document.getElementById(container).style.display = "none"
@@ -29,10 +27,7 @@ function endGame() {
 
 // ********   TIMER FUNCTION  *****************
 
-
 function countDown() {
-
-  // var timeLeft = 5;
 
 
   var timeInterval = setInterval(function () {
@@ -94,7 +89,7 @@ async function selectOption(index) {
 }
 
 
-//  submit script
+// ***********  SUBMIT BUTTON ***********
 
 var submitbtn = document.getElementById("submit");
 
@@ -112,7 +107,7 @@ function saveToLocalStorage() {
 submitbtn.addEventListener("click", saveToLocalStorage)
 
 
-// addd local storage
+// *********** ADD TO LOCAL STORAGE ***********
 function addScores() {
   newScore.innerHTML = ""
   var highScore = JSON.parse(localStorage.getItem("highScore"))
@@ -125,7 +120,7 @@ function addScores() {
     newLi.style.marginBottom = "5px";
     newLi.style.width = "200px";
 
-
+    // *********** CLEAR BUTTON ***************
     var clearBtn = document.getElementById("clear");
     clearBtn.addEventListener("click", function () {
       newScore.remove(newLi[0])
@@ -157,7 +152,7 @@ viewHSbtn.addEventListener("click", function () {
   hScore.style.display = "block";
 })
 
-//  ************ CLEAR BUTTON  *****
+
 
 
 

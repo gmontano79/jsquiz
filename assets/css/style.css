@@ -15,7 +15,7 @@ body {
   padding-bottom: 20px;
 }
 
-.hscores {
+#hscores {
   width: 50%;
   padding-top: 20px;
   padding-left: 20px;
@@ -40,7 +40,6 @@ a:visited {
 /*  *************START BUTTON************* */
 
 .startdiv {
-  /* border: 3px solid yellow; */
   width: 70%;
   height: 400px;
   margin: auto;
@@ -67,7 +66,6 @@ a:visited {
   font-weight: bold;
   border-radius: 8px;
   border: none;
-  margin-left: 50px;
 }
 #start:hover {
   box-shadow: 3px 3px 5px grey;
